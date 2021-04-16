@@ -1,0 +1,85 @@
+/*Module 2 style sheet*/
+
+/*This stylesheet is bound to the index.html file*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    font-size: xx-large;
+    line-height: 200px;
+}
+
+
+
+  .column{
+    border: 15px;
+    border-style: solid; 
+    border-color: white; 
+    background-image: linear-gradient(to bottom right, white, rgba(85, 85, 85, 0.733));
+    width: 33.33%;
+    height: 50%;
+    float: left;
+    margin: 50px 0px 0px 0px auto;
+    overflow: hidden;
+    height: 300px;
+   /* border: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.596);*/
+}
+
+p{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.head{
+    text-align: center;
+    padding-right: 20px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    padding-right: 10px;
+    position: relative;
+    margin-left: 65%;
+   /* display: inline-block;*/
+}
+
+#chicken{
+    background-color: burlywood;
+}
+
+#beef{
+    background-color: brown;
+}
+
+#sushi{
+    background-color: crimson;
+}
+
+/*Desktop version*/
+@media screen and (min-width: 992px){
+ 
+}
+
+/*Tablet Version*/
+@media screen and (max-width: 991px) {
+    .column{
+        width: 50%;
+    }
+    .col_three{
+        width: 100%;
+        border: 15px 15px 60px 15px;
+    }
+}
+
+/*Mobile version*/
+@media screen and (max-width: 767px) {
+    .column{
+        width: 100%;
+    }
+}
