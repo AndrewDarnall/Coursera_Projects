@@ -82,4 +82,7 @@ p{
     .column{
         width: 100%;
     }
+    .col-three{
+        border: 15px 15px 60px 15px;
+    }
 }
